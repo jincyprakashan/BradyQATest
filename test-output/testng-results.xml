@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-26T21:56:38Z" name="Brady QA Automation Test Suite" finished-at="2023-01-26T21:57:43Z" duration-ms="65080">
+    <groups>
+    </groups>
+    <test started-at="2023-01-26T21:56:38Z" name="Brady Test" finished-at="2023-01-26T21:57:43Z" duration-ms="65080">
+      <class name="com.brd.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.brd.qa.testcases.HomePageTest@3d680b5a]" started-at="2023-01-26T21:56:39Z" name="SetUp" finished-at="2023-01-26T21:56:51Z" duration-ms="11334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="KeywordSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.brd.qa.testcases.HomePageTest@3d680b5a]" started-at="2023-01-26T21:56:51Z" name="KeywordSearchTest" data-provider="getTestData" finished-at="2023-01-26T21:57:19Z" duration-ms="28505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rvsroshan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Asia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FX: GBPJPY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KeywordSearchTest -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:com.brd.qa.testcases.HomePageTest@3d680b5a]" started-at="2023-01-26T21:57:19Z" name="BrowserClose" finished-at="2023-01-26T21:57:19Z" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.brd.qa.testcases.HomePageTest@3d680b5a]" started-at="2023-01-26T21:57:20Z" name="SetUp" finished-at="2023-01-26T21:57:33Z" duration-ms="13925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.brd.qa.testcases.HomePageTest@3d680b5a]" started-at="2023-01-26T21:57:33Z" name="LoginTest" data-provider="getTestData" finished-at="2023-01-26T21:57:43Z" duration-ms="9582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rvsroshan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Asia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FX: GBPJPY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:com.brd.qa.testcases.HomePageTest@3d680b5a]" started-at="2023-01-26T21:57:43Z" name="BrowserClose" finished-at="2023-01-26T21:57:43Z" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- com.brd.qa.testcases.HomePageTest -->
+    </test> <!-- Brady Test -->
+  </suite> <!-- Brady QA Automation Test Suite -->
+</testng-results>

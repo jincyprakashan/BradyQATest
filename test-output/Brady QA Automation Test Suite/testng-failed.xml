@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Brady QA Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.brd.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.brd.qa.Analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Brady Test(failed)">
+    <classes>
+      <class name="com.brd.qa.testcases.HomePageTest">
+        <methods>
+          <include name="BrowserClose"/>
+          <include name="SetUp"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.brd.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Brady Test(failed) -->
+</suite> <!-- Failed suite [Brady QA Automation Test Suite] -->
